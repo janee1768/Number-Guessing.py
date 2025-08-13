@@ -1,34 +1,34 @@
-### 🎯 Number Guessing Game – Python Project
+# 🎯 Number Guessing Game
 
-This is a fun and simple Python game where the computer randomly picks a number, and the user has to guess what it is. The goal is to guess the correct number in as few tries as possible.
+A fun and interactive Python game where you try to guess a randomly generated number within a range you choose.
 
-### 🕹️ How the Game Works
+## 📌 Features
+- Customizable guessing range.
+- Random number generation for unpredictable gameplay.
+- Feedback after each guess (`too high` / `too low`).
+- Tracks number of attempts.
 
-When the program starts, it asks the user to enter a maximum number. The computer then randomly picks a secret number between **0 and that maximum number**.
+## 🚀 How to Run
+1. Make sure you have Python installed.
+2. Clone or download this repository.
+3. Open a terminal in the project folder.
+4. Run:
+   ```bash
+   python "Number Guessing Game.py"
+   
+🛠 Technologies Used
+Python 3
 
-The user is then asked to make a guess. After each guess:
+random module for number generation
 
-* If the guess is too low, the program says **"You are below the number!"**
-* If the guess is too high, it says **"You are above the number!"**
-* If the guess is correct, it says **"You got it!"** and ends the game
+💡 Future Improvements
+Difficulty levels (easy, medium, hard)
 
-The program also counts how many guesses the user makes and shows the total number at the end.
+Input validation for non-numeric entries
 
-### ✅ Features
+Scoreboard system
 
-* Takes a custom top number from the user
-* Picks a random number each time
-* Gives hints to guide the user (higher or lower)
-* Tells how many guesses were made
-* Uses basic Python functions and logic
+Multiple rounds with total scores
 
-### 🧠 What You Learn
-
-This project helps beginners understand:
-
-* `input()` and `print()` functions
-* Using `if`, `elif`, and `else` statements
-* `while True` loops
-* Random number generation using `random.randint()`
-* Basic error handling
-
+📜 License
+This project is open-source and free to use for learning purposes.
